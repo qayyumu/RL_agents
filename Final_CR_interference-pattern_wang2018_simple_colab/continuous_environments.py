@@ -31,7 +31,7 @@ class Environment(object):
     def step(self, action):
         x_t1, r_t, terminal, info = self.env.step(action)
         previous_states = np.array(self.state_buffer)
-        s_t1 = np.empty((self.timespan, *self.env.observation_space.shape))
+        s_t1 = np.empty((self.timespan, self.env.observation_space.shape))
         s_t1[:self.timespan-1, :] = previous_states
         s_t1[self.timespan-1] = x_t1
         # Pop the oldest frame, add the current frame to the queue
