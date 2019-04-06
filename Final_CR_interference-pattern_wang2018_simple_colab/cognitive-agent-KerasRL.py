@@ -19,7 +19,7 @@ from rl.policy import BoltzmannGumbelQPolicy
 from rl.callbacks import FileLogger, ModelIntervalCheckpoint
 import argparse
 import json
-from utils.forkerasRL_environments import forkerasRL_environment
+from forkerasRL_environments import forkerasRL_environment
 
 
 
