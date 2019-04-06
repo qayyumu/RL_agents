@@ -12,7 +12,7 @@ from ns3gym import ns3env
 from ddqn import DDQN
 from keras.backend.tensorflow_backend import set_session
 from keras.utils import to_categorical
-from utils.continuous_environments import Environment
+from continuous_environments import Environment
 
 duel_DQN  = 1    ### for duel network with replay experience otherwise put zero
 
