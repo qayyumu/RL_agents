@@ -6,7 +6,7 @@ from keras.models import Model
 from keras.optimizers import Adam
 from keras.layers import Input, Dense, Flatten, Reshape, LSTM, Lambda
 from keras.regularizers import l2
-from utils.networks import conv_block
+from networks import conv_block
 
 class Agent:
     """ Agent Class (Network) for DDQN
