@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import json
 
 
-from utils.memory_buffer import MemoryBuffer
+from memory_buffer import MemoryBuffer
 #from utils.networks import tfSummary
 #from utils.stats import gather_stats
 
